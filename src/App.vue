@@ -39,7 +39,7 @@ const generatedPalette = computed(() => {
       if (step > 0) {
         palette.push([lightness, primaryColor.value[1], hue])
       } else {
-        palette.push([paletteParameters.lightness[1], primaryColor.value[1], hue])
+        palette.push([primaryColor.value[0], primaryColor.value[1], hue])
       }
     }
 
