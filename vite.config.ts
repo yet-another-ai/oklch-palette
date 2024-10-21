@@ -28,6 +28,7 @@ export default defineConfig({
       ],
     }),
   ],
+  base: '/oklch-palette/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
